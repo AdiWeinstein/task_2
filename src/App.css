@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+.input-search{
+  padding: 8px 6px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.input-submit{
+  padding: 8px 6px;
+  background-color: darkcyan;
+  border: 1px solid darkcyan;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.input-submit:hover{
+  padding: 8px 6px;
+  background-color: white;
+  border: 1px solid darkcyan;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.recipe-container{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.recipe-item{
+  display: flex;
+  flex-direction: column;
+}
+.recipe-item:hover{
+transform: scale(105%);
+cursor: pointer;
+}
+.recipe-img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-top: 20px;
+}
